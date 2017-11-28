@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        Connor Cranston
+        <a href="#">Home</a>
+        <a href="jobs.html">My Jobs</a>
+        <a href="about.html">About Me</a>
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <form action="http://fvi-grad.com:4004/email" method="POST">
+            First name <br>
+            <input type="text" name="demail" placeholder="Destination Email">
+            <input type="text" name="full_name" placeholder="Full Name">
+            <input type="text" name="phone_num"placeholder="Phone">
+            <input type="text" name="date" placeholder="Date">
+            <input type="text" name="time" placeholder="Time">
+            <input type="text" name="semail" placeholder="ccranston@techlaunch.io">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" cols="30" rows="10">Enter email body here</textarea>
+            <input type="submit" name="submit" value="Submit"
+        </form>
+    </div>
+
+    <div class="footer">
+        Connor Cranston email: ccranston@techlaunch.io
+    </div>
+</body>
+</html>
